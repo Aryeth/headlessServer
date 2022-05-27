@@ -30,6 +30,7 @@ To now (finally) ssh into your soon-to-be server, you will need to type in your 
 Congratz ! You're now connected onto your headless raspberry pi :)
 ## Apache installation
 
+
 ## Your first webpage
 To put up your first webpage on your website, you can use this [example page](assets/examplePage.html), or feel free to create your own.
 ## Opening your ports
