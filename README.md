@@ -1,6 +1,6 @@
-#Headless rpi webserver / website hosting at home
+# Headless rpi webserver / website hosting at home
 
-##Note that this guide is currently in the writings :neckbeard:
+## Note that this guide is currently in the writings :neckbeard:
 
 This repo pretty much explains how to create a web hosting server on a raspberry pi, using swisscom's dynamic DNS (DDNS) config, and an Infomaniak domain.
 This guide is divided in 5 parts :
@@ -12,8 +12,12 @@ This guide is divided in 5 parts :
 
 Enjoy the guide !
 
-##Configurating ssh
-##Apache installation
-##Your first webpage
-##Opening your ports
-##Swisscom's DDNS config
+## Configurating ssh
+
+## Apache installation
+
+## Your first webpage
+
+## Opening your ports
+
+## Swisscom's DDNS config
