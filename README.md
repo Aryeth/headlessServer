@@ -3,11 +3,11 @@
 This repo pretty much explains how to create a web hosting server on a raspberry pi, using swisscom's dynamic DNS (DDNS) config, and an Infomaniak domain.
 This guide is divided in 5 parts :  
 
-  - [Configurating rpi and ssh](#configurating-rpi-and-ssh)
-  - [Apache installation](#apache-installation)
-  - [Your first webpage](#your-first-webpage)
-  - [Opening your ports](#opening-your-ports)
-  - [Swisscom's DDNS config](#swisscoms-ddns-config)
+- [Configurating rpi and ssh](#configurating-rpi-and-ssh)
+- [Apache installation](#apache-installation)
+- [Your first webpage](#your-first-webpage)
+- [Opening your ports](#opening-your-ports)
+- [Swisscom's DDNS config](#swisscoms-ddns-config)
   
 Enjoy the guide !  
 
