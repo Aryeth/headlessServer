@@ -27,20 +27,26 @@ The output should look something like this, and your ip should be where the red 
 To now (finally) ssh into your soon-to-be server, you will need to type in your terminal (using linux here, follow [this](https://jarrodstech.net/how-to-raspberry-pi-ssh-on-windows-10/) for windows) : `ssh [your username]@[raspberry ip]`. You will then be asked for your password, and you should be able to login to something that looks like this :  
 ![raspberry pi login prompt and welcome message](assets/images/connected.png)  
 Congratz ! You're now connected onto your headless raspberry pi :)
+
 ## Apache installation
+
 To put up your webpage, we are going to use [Apache](https://www.apache.org/).  
 In your raspberry pi, you will need to install apache by using this command : `sudo apt-get install apache2 -y`.  
 You should now already be able to see on your local network the server working by going on `https://[your-raspberry-pi-ip`  
 
 This is already pretty nice in my opinion, but we're still not done yet !
+
 ## Your first webpage
+
 The default apache webpage should have normally appeared on the last step of this tutorial. This page is actually hosted on your raspberry pi, and you should
 be able to find it on your raspberry pi at `/var/www/html/index.html`. You can modify this page already to put up your own;  
 To put up your first webpage on your website, you can use this [example page](assets/examplePage.html), or create your own.  
 You should now be able to go back to the page and see the changes that you made.
 \
 *Note: you can also at this step install PHP or any other packages that you will want to use on your website.*
+
 ## Opening your ports
+
 To get your webpage on the world wide web, we will now need to open some router ports. As said before, we will cover it with the Swisscom router.  
 To access the router, you will have to go to [this page](http://internetbox.home/#login). You should now be able to login with your password.  
 Once on the page, activate "expert mode" if you have it unchecked. You should now be able to go into the "Network Settings", and from there access the "Port Forwarding" subtab.
@@ -48,7 +54,9 @@ You will now need to create two new rules for your raspberry pi, opening the por
 ![set of rules for the swisscom router; the rule is "HTTP", the ip is changed to match the raspberry pi ip, and the port is 80](assets/images/port80.png)
 ![second set of rule for the router; the rule is "HTTPS", the ip also the same as the raspberry pi, and the port is 443](assets/images/port443.png)  
 While you're in there, I would recommend you disable the "use IPV6" option, I have found it to be easier to setup using an ipv4.
+
 ## Swisscom's DDNS config
+
 Almost done !  
 You will now need to access your domain on Infomaniak (if you havent got one yet, they're pretty cheap). We will now go in the "Dynamic DNS" tab, where we will need to add a new DNS.
 ![the image shows the dynamic DNS page in french](assets/images/infomaniak.png)  
