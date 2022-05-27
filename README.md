@@ -49,7 +49,6 @@ You will now need to create two new rules for your raspberry pi, opening the por
 ![second set of rule for the router; the rule is "HTTPS", the ip also the same as the raspberry pi, and the port is 443](assets/images/port443.png)  
 While you're in there, I would recommend you disable the "use IPV6" option, I have found it to be easier to setup using an ipv4.
 ## Swisscom's DDNS config
-
 Almost done !  
 You will now need to access your domain on Infomaniak (if you havent got one yet, they're pretty cheap). We will now go in the "Dynamic DNS" tab, where we will need to add a new DNS.
 ![the image shows the dynamic DNS page in french](assets/images/infomaniak.png)  
@@ -59,7 +58,9 @@ When you are done setting up this DNS, we will need to go back in the swisscom r
 In the swisscom page, still in the Network settings, we will now need to go in the "DynDNS" tab. Under "other DNS providers", you will need to enable DynDNS, then add "Infomaniak" as the provider and fill in the rest as asked.
 ![Dynamic DNS prompt page](assets/images/DDNS2.png)  
 Hit save when everything is good, and you should now soon be able to connect to your website through your domain !  
+
 ---
+
 That's it for this guide, do not hesitate to open a pull request, or to [send me a mail](mailto:leo.bernard2002@gmail.com) if you find anything to fix.  
 You can also [buy me a beer](https://www.paypal.com/paypalme/aryethunderscore) if you enjoyed this guide :)
 
