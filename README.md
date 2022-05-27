@@ -2,7 +2,7 @@
 
 This repo pretty much explains how to create a web hosting server on a raspberry pi, using swisscom's dynamic DNS (DDNS) config, and an Infomaniak domain.
 This guide is divided in 5 parts :  
-Note that this guide is currently in the writings :neckbeard:
+
   - [Configurating rpi and ssh](#configurating-rpi-and-ssh)
   - [Apache installation](#apache-installation)
   - [Your first webpage](#your-first-webpage)
@@ -12,7 +12,7 @@ Note that this guide is currently in the writings :neckbeard:
 Enjoy the guide !  
 
 ## Configurating rpi and ssh
----
+
 First things first : we're going to need to set up your raspberry pi.  
 For this build, I used raspberry pi's imager that you can find on their [website](https://www.raspberrypi.com/software/).  
 I used for this project the Lite 32-bit OS, because I do not feel that there is a need for any GUI when using the computer in a headless mode.  
@@ -57,9 +57,9 @@ You will now need to add a new Dynamic DNS ("ajouter un dns dynamique" in the pi
 ![DDNS page to modify](assets/images/DDNS1.png)
 When you are done setting up this DNS, we will need to go back in the swisscom router (please note down your username / password somewhere too !)  
 In the swisscom page, still in the Network settings, we will now need to go in the "DynDNS" tab. Under "other DNS providers", you will need to enable DynDNS, then add "Infomaniak" as the provider and fill in the rest as asked.
-![Dynamic DNS prompt page](assets/images/DDNS2.png).
+![Dynamic DNS prompt page](assets/images/DDNS2.png)  
 Hit save when everything is good, and you should now soon be able to connect to your website through your domain !  
-
+---
 That's it for this guide, do not hesitate to open a pull request, or to [send me a mail](mailto:leo.bernard2002@gmail.com) if you find anything to fix.  
 You can also [buy me a beer](https://www.paypal.com/paypalme/aryethunderscore) if you enjoyed this guide :)
 
