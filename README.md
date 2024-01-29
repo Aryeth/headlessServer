@@ -82,7 +82,7 @@ Hit save when everything is good, and you should now soon be able to connect to 
 
 ---
 
-That's it for this guide, do not hesitate to open a pull request, or to [send me a mail](mailto:leo.bernard2002@gmail.com) if you find anything to fix.  
+That's it for this guide, do not hesitate to open a pull request, if you find anything to fix.  
 You can also [buy me a beer](https://www.paypal.com/paypalme/aryethunderscore) if you enjoyed this guide :)
 
 Enjoy playing with your webserver !
